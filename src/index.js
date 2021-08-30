@@ -27,8 +27,7 @@ const PIP_PACKAGES = [
 	"vcversioner==2.16.0.0",
 	"mozsystemmonitor==0.4",
 	"jsonschema==2.5.1",
-	"functools32==3.2.3-2",
-	"psutil==5.4.3",
+	"psutil>=5.6.3",
 	"mock",
 	"simplejson"
 ];

@@ -225,7 +225,7 @@ module.exports = {
     // We use var-only-at-top-level instead of no-var as we allow top level
     // vars.
     "no-var": 0,
-    //"mozilla/var-only-at-top-level": 1,
+    // "mozilla/var-only-at-top-level": 1,
 
     // Disallow global and local variables that aren't used, but allow unused function arguments.
     "no-unused-vars": [2, { vars: "all", args: "none", varsIgnorePattern: "EXPORTED_SYMBOLS" }],
