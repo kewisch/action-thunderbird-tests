@@ -1,6 +1,20 @@
 Thunderbird Tests Action
 ========================
 
+
+Discontinuation Notice
+----------------------
+
+This action was written to run xpcshell tests for Thunderbird add-ons, but that will only be useful
+for legacy add-ons that interact directly with Thunderbird. The new and improved way to write
+Thunderbird add-ons is with the WebExtensions API, where unit testing can happen with jest, and UI
+tests can happen with webdriver. You might also like https://github.com/kewisch/action-web-ext/
+which helps with linting and signing.
+
+
+Intro
+-----
+
 ![Build Status](https://github.com/kewisch/action-thunderbird-tests/workflows/Thunderbird%20Tests%20Action/badge.svg)
 
 This is a Github Action to run Thunderbird tests, for example if you want to create an xpcshell test

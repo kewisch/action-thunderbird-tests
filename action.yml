@@ -17,5 +17,5 @@ inputs:
     description: "Run xpcshell tests from this directory"
     required: false
 runs:
-  using: "node12"
-  main: "src/loader.js"
+  using: "node20"
+  main: "src/deprecated.js"
